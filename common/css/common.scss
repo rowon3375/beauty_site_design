@@ -1,10 +1,11 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+JP:wght@500;700;800;900 & family= Open+Sans:wght@500;600; 700;800 & family= Roboto:wght@500;700;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Noto+Sans+JP:wght@500;700;800;900&family=Roboto:wght@500;700;900&display=swap');
 
-$color_main: #000000;
+$color_main: #ea0329;
 $color_sub: #333333;
 $color_white: #fff;
+$color_font: #202020;
 
 $font_main: 'Noto Sans JP', sans-serif;;
 $font_en: 'Open Sans', sans-serif;
@@ -21,9 +22,9 @@ html{
 }
 
 body{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-size: 16px;
-    color: $color_main;
+    color: $color_font;
     line-height: 1.8;
 }
 
@@ -34,10 +35,10 @@ body.active{
 main{
     display: block;
     margin: 0;
-    padding: 120px 0 0;
+    padding: 100px 0 0;
 
     @media (max-width: 768px) {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 }
 
